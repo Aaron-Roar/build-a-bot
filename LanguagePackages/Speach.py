@@ -2,7 +2,7 @@
 
 class Lol():
   def setup(self, commands):
-    return "lol But are you really laughing?"
+    return "But are you really laughing?"
 
 class Fuck():
   def setup(self, commands):

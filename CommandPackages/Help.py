@@ -1,13 +1,24 @@
+import Variables
+
 class Help():
   def Help(commands):
 
-    thing = """
+    thing = f"""
     ```python
-    alright stupid so you need some help?
-    that really sucks well, guess what?
-    your lucky, 
-    jk fuck u pussy```
+    'Need Help understanding smooth brain?
+    its a discord bot not really hard to understand'
+    
+    '    {Variables.command_token}    ' is your command prefix you type that into the
+     appropriate discord text channel before a message
+     if u wanna use a command
+    
+    If your internet handle goes by {Variables.friends} 
+    then its your shitty china pc why the bot isnt working 
+    
+    
+    ```
     """
+
     return thing
 
 
