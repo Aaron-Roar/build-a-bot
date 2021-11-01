@@ -9,6 +9,7 @@ PackageDict = {
   "Help":Help.Help(),
   "About":Help.About(),
   "Commands":Help.Commands(),
+  "China":Help.China(),
  
   
 }

@@ -20,7 +20,7 @@ class MyClient(discord.Client):
         self.bot_user = discord.client
 
     async def transmit(self, data, meda_data):
-        print("Bot reply: " + data)
+        print("Bot reply: " + str(data))
         print("Channel: " + str(meda_data.channel))
         print("In response to: " + str(meda_data.user))
         await meda_data.channel.send(data)
