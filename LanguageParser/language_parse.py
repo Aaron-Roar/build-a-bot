@@ -1,5 +1,5 @@
 import Packages
-import command_parser as parser
+from CommandParser import command_parser as parser
 
 def evaluate_phrase(sentence):
   words = parser.parseWords(str(sentence))

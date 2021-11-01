@@ -1,10 +1,5 @@
-import WordPlay as WordPlay
-import Math as Math
-import Multiply
-import Speach as Speach 
-import AsciiArt
-import Commie 
-import Help
+from CommandPackages import WordPlay, Math, Multiply, Help
+from LanguagePackages import AsciiArt, Commie, Speach
 
 PackageDict = {
   "Math": Math.Math(),

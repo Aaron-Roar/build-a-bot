@@ -25,10 +25,13 @@ class About():
     ABOUTME = """
     ```python
      Built by !Rain#6933
-     questioned by Rymink#0362
-      
+     Questioned by Rymink#0362
+     stolen from https://github.com/
+
+
      Accounts effected by ddos tool
-     1). MiniMerz#1352 ```
+     1). MiniMerz#1352(RIP)
+     2). N0t0r10usB1ack#9651(RIP) ```
     """
     return ABOUTME
 

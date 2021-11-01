@@ -1,7 +1,7 @@
 import discord
-import command_parser as command
-import MedaData as MedaData
-import language_parse as LP
+from CommandParser import command_parser as command
+from DiscordAPI import MedaData as MedaData
+from LanguageParser import language_parse as LP
 
 
 
