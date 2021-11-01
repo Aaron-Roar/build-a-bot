@@ -16,10 +16,13 @@ class MyClient(discord.Client):
         return False
 
     async def on_ready(self):
-        print('Logged on as {0}!'.format(self.user))
+        print('Bot has logged on as {0}!'.format(self.user))
         self.bot_user = discord.client
 
     async def transmit(self, data, meda_data):
+        print("Bot reply: " + data)
+        print("Channel: " + str(meda_data.channel))
+        print("In response to: " + str(meda_data.user))
         await meda_data.channel.send(data)
 
     async def on_message(self, message):
@@ -31,7 +34,6 @@ class MyClient(discord.Client):
             value = command.runCommand(user_command)
           
             await self.transmit(value, meda_data)
-            print("Value: " + str(value))
         
           else:
             values = ""
@@ -39,7 +41,6 @@ class MyClient(discord.Client):
             if(values == ""):
               print("no language cases")
             else:
-              print("Values: " + values)
               await self.transmit(values, meda_data)
         else:
-            print("Bot sent a message")
+            print("Ignoring self notification")

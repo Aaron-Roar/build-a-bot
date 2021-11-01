@@ -1,9 +1,8 @@
 import Packages as Packages
 
 def runCommand(phrase):
-  print(str(phrase))
+  print("Command: " + str(phrase))
   command = parseWords(str(phrase))
-  print(command[0])
 
   feature = findFeature(command)
 
@@ -16,14 +15,11 @@ def parseWords(phrase):
 
   word = str()
   for i in phrase:
-    print(i)
     if(i == ' ' or i == '\n'):
       command.append(str(word))
       word = ""
     else:
       word += i
-  for i in command:
-    print(i)
   return command
 
 
@@ -36,7 +32,7 @@ def findFeature(commands):
     feature = package.dict[commands[0]]
   else:
     feature = package.dict[commands[1]]
-    print("Com1: " + commands[0] + " Com2: " + commands[1])
+
   return feature
 
 

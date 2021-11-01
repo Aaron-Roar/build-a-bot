@@ -11,19 +11,44 @@ class Help():
     return thing
 
 
-  def Commands(commands):
-    return "/ This for commms :)"
-
   dict = {
     "Help":Help,
+  }
+
+
+class Commands():
+  def Commands(commands):
+    CommandHelp = """
+    ```
+    Alright so our bot confuses you eh?
+
+    /About = info about he dev's and testing
+
+    /Help = helpful info about the bot
+
+    /Math(add)(,)(subtract)(,)(Mulitiply) = 
+    input your math problem and hopfully a computer can figure it out 
+
+    /WordPlay(backwords) = to output a word in reverse 
+
+    /AsciiArt = for fun clip art spam 
+    ```
+    """
+    
+    return CommandHelp 
+
+
+  dict = {
     "Commands":Commands,
   }
+
+
 
 class About():
   def About(commands):
     
     ABOUTME = """
-    ```python
+    ```
      Built by !Rain#6933
      Questioned by Rymink#0362
      stolen from https://github.com/
@@ -31,7 +56,8 @@ class About():
 
      Accounts effected by ddos tool
      1). MiniMerz#1352(RIP)
-     2). N0t0r10usB1ack#9651(RIP) ```
+     2). N0t0r10usB1ack#9651(RIP)
+     ```
     """
     return ABOUTME
 

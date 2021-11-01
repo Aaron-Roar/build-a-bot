@@ -8,6 +8,8 @@ PackageDict = {
   "AsciiArt":AsciiArt.Art(),
   "Help":Help.Help(),
   "About":Help.About(),
+  "Commands":Help.Commands(),
+ 
   
 }
 
