@@ -1,6 +1,6 @@
 from DiscordAPI import DiscordInterface as Bot
 
-token = 'TokenHere'
+token = 'Token-Here'
 
 bot = Bot.MyClient()
 bot.run(token)

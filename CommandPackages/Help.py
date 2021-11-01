@@ -19,17 +19,19 @@ class Help():
 class Commands():
   def Commands(commands):
     CommandHelp = """
-    ```
-    Alright so our bot confuses you eh?
+    ```python
+    'Alright so our bot confuses you eh?
 
-    /About = info about he dev's and testing
+    /About = info about the devs and testing
 
     /Help = helpful info about the bot
 
     /Math(add)(,)(subtract)(,)(Mulitiply) = 
-    input your math problem and hopfully a computer can figure it out 
+    input your math problem and hopfully 
+    a computer can figure it out 
 
-    /WordPlay(backwords) = to output a word in reverse 
+    /WordPlay(backwords) = to output a word 
+    in reverse 
 
     /AsciiArt = for fun clip art spam 
     ```
